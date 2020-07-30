@@ -8,6 +8,9 @@
     <artifactId>design-patterns</artifactId>
     <version>1.0</version>
 
+    <name>design-patterns</name>
+    <description>Design Patterns tutorials</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>14</maven.compiler.source>
