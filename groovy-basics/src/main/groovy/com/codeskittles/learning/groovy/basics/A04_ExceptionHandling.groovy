@@ -10,6 +10,6 @@ class A04_ExceptionHandling {
         // Below line throws a FileNotFoundException which is a checked Exception
         // FileNotFoundException <- IOException <- Exception
         // Groovy does not force you to handle it unlike in Java
-        FileInputStream fileInputStream = new FileInputStream(someFile);
+        throw new FileInputStream(someFile);
     }
 }
