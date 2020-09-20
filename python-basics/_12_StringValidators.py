@@ -1,0 +1,6 @@
+string = input()
+print(sum([1 for i in range(len(string)) if string[i].isalpha() or string[i].isdigit()]) > 0)
+print(sum([1 for i in range(len(string)) if string[i].isalpha()]) > 0)
+print(sum([1 for i in range(len(string)) if string[i].isdigit()]) > 0)
+print(sum([1 for i in range(len(string)) if string[i].islower()]) > 0)
+print(sum([1 for i in range(len(string)) if string[i].isupper()]) > 0)
