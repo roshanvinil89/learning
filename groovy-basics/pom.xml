@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <java.version>14</java.version>
-        <groovy.version>3.0.5</groovy.version>
+        <groovy.version>3.0.7</groovy.version>
 
         <plugin.maven.compiler.version>3.8.1</plugin.maven.compiler.version>
     </properties>
